@@ -1,0 +1,516 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body>
+        <!--LoadingScreen-->
+      
+            <div class="inner-loading-screen top-0 start-0 end-0 bottom-0 justify-content-center align-items-center">
+                <i class="fa fa-spinner fa-spin fa-5x"></i>
+            </div>
+            <!--NavBar-->
+            <section>
+            <div class="side-nav-menu min-vh-100 position-fixed d-flex  top-0 " style="left: 0px;" id="side-nav-menu">
+    
+                <div id="side-nav" class="nav-tab  flex-column justify-content-between min-vh-100 p-4">
+                    <div class="d-flex flex-column justify-content-between min-vh-100 p-4">
+                        <div class="links text-white">
+                            <ul class="list-unstyled overflow-hidden">
+                               
+                                <li onclick=" closeSideNav(), displaySearch()" class="py-2 position-relative cursor-pointer" style="top: 0px;">Search</li>
+                                <li onclick=" closeSideNav() , displayCategoryNavBar()" class="py-2 position-relative cursor-pointer" style="top: 0px;">Categories</li>
+                                <li onclick=" closeSideNav(),displayArea() " class="py-2 position-relative cursor-pointer" style="top: 0px;">Area</li>
+                                <li onclick=" closeSideNav(),displayIngredients()" class="py-2 position-relative cursor-pointer" style="top: 0px;">Ingredients</li>
+                                <li onclick="closeSideNav() , displayContactUs()" class="py-2 position-relative cursor-pointer" style="top: 0px;">Contact Us</li>
+                            </ul>
+                        </div>
+                        <div class="nav-footer text-white">
+                            <div class="icons">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div class="footer">
+                                <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+                <div class="nav-header d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+                    <img class="logo " src="img/logo.png" alt="" srcset="">
+                    <i onclick="openSideNav()" class="fa-solid open-close-icon fa-2x fa-align-justify"></i>
+                    <div>
+                        <i class="fa-solid fa-globe d-block"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--Home-->
+        <section class="bg-black  " id="meals-home" >
+            <div class="container">
+                <div class="row py-5 g-4" id="main-meals">
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="card">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="card">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="card">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="card">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="card">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="card">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="card">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="card"> 
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- detailes  -->
+        <section class="bg-dark min-vh-100 d-none" id="id-meals">
+            <div class="container">
+                <div class="row py-5" id="id-Details">
+                    <div class="col-md-4 text-white">
+                        <img src="img/58oia61564916529.jpg" class="img-fluid rounded-2">
+                        <h2>Corba</h2>
+                    </div>
+                    <div class="col-md-8 text-white">
+                        <h2><strong>Instructions</strong></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, minus perferendis magnam dolor quae culpa earum architecto voluptate totam a distinctio iusto dolorem veritatis itaque ullam dignissimos asperiores quia debitis. Earum iste rem itaque doloribus omnis nihil sint rerum officia doloremque, vitae sed quod soluta ducimus reprehenderit nostrum provident quidem ad temporibus, quae dolor perferendis inventore? Molestiae ab numquam, quas veniam itaque maiores. Dicta, ipsa molestiae? Corporis omnis sunt blanditiis, delectus, iusto, aspernatur facere enim vero laudantium dolor cupiditate eos?</p>
+                        <h2><strong>Area:Turkey</strong></h2>
+                        <h2><strong>Category:Side Dishes</strong></h2>
+                        <h2><strong>Recipes</strong></h2>
+                        <ul class="list-unstyled d-flex  g-3 flex-wrap ">
+                            <li class="alert alert-info m-2 p-2">1 cup  Lentils</li>
+                            <li class="alert alert-info m-2 p-2">1 large Onion</li>
+                            <li class="alert alert-info m-2 p-2">1 large Carrots</li>
+                            <li class="alert alert-info m-2 p-2">1 tbs Tomato Puree</li>
+                            <li class="alert alert-info m-2 p-2">1 cup  Lentils</li>
+                            <li class="alert alert-info m-2 p-2">1 large Onion</li>
+                            <li class="alert alert-info m-2 p-2">1 large Carrots</li>
+                            <li class="alert alert-info m-2 p-2">1 tbs Tomato Puree</li>
+                            <li class="alert alert-info m-2 p-2">1 cup  Lentils</li>
+                            <li class="alert alert-info m-2 p-2">1 large Onion</li>
+                            <li class="alert alert-info m-2 p-2">1 large Carrots</li>
+                            <li class="alert alert-info m-2 p-2">1 tbs Tomato Puree</li>
+
+                        </ul>
+                        <h2><strong>Tags:</strong></h2>
+                        <ul class="list-unstyled d-flex g-3 flex-wrap">
+                            <li class="alert alert-danger list-unstyled p-1 " >Soup</li>
+                        </ul>
+                        <a class="btn btn-success text-white">Source</a>
+                        <a class="btn btn-danger text-white">Youtube</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--Search-->
+        <section id="search" class="bg-black d-none">
+            <div class="container w-75 ">
+                <div class="row p-4 ">
+                    <div class="col-md-6" id="search-name">
+                        <input onkeyup="getName(this.value)" class="form-control bg-dark text-white" placeholder="Search By Name" id="searchbyname">
+                    </div>
+                    <div class="col-md-6" id="search-letter" >
+                        <input onkeyup="getByLetter(this.value)" class="form-control bg-dark text-white" placeholder="Search By Letter" id="searchbyletter">
+
+                    </div>
+                </div>
+               
+
+            </div>
+            
+        </section>
+        <section class="bg-black d-none" id="meals-search" >
+            <div class="container">
+                <div class="row py-5 g-4" id="search-meals">
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="searchcard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="searchcard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="searchcard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="searchcard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="searchcard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="searchcard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="searchcard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="searchcard"> 
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute d-flex align-items-center text-black p-2 ">
+                                <h3>Corba</h3>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+       
+        <!--Category-->
+        <section class="bg-black d-none" id="category" >
+            <div class="container">
+                <div class="row py-5 g-4" id="category-meals">
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden " id="catCard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute text-center text-black  ">
+                                <h3>Corba</h3>
+                                <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]</p>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden " id="catCard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute text-center text-black ">
+                                <h3>Corba</h3>
+                                <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]</p>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="catCard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute text-center text-black">
+                                <h3>Corba</h3>
+                                <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]</p>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="catCard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute text-center text-black ">
+                                <h3>Corba</h3>
+                                <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]</p>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="catCard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute text-center text-black">
+                                <h3>Corba</h3>
+                                <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]</p>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="catCard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute text-center text-black">
+                                <h3>Corba</h3>
+                                <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]</p>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="catCard">
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute text-center text-black">
+                                <h3>Corba</h3>
+                                <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]</p>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-2 meal position-relative overflow-hidden" id="catCard"> 
+                            <img class="img-fluid" src="img/58oia61564916529.jpg">
+                            <div class="meal-layer position-absolute text-center text-black ">
+                                <h3>Corba</h3>
+                                <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]</p>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--Area-->
+        <section class="bg-black d-none " id="area" >
+            <div class="container">
+                <div class="row py-5 g-4" id="area-meals">
+                    <div class="col-md-3">
+                        <div class="text-center d-flex text-white flex-column rounded-2 meal position-relative overflow-hidden " id="catCard">
+                            <i class="fa-solid fa-house-laptop fa-4x"></i>
+                                <h3>Amrica</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center d-flex text-white flex-column rounded-2 meal position-relative overflow-hidden " id="catCard">
+                                <i class="fa-solid fa-house-laptop fa-4x"></i>
+                                    <h3>Amrica</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center d-flex text-white flex-column rounded-2 meal position-relative overflow-hidden " id="catCard">
+                                    <i class="fa-solid fa-house-laptop fa-4x"></i>
+                                        <h3>Amrica</h3>
+                                    </div>
+                                </div>
+                    
+                    </div>
+
+                    </div>
+                   
+                     
+
+                
+        </section>
+        <!--ingredient-->
+        <section class="bg-black d-none " id="ingerdient" >
+            <div class="container">
+                <div class="row py-5 g-4" id="ingerdient-meals">
+                    <div class="col-md-3">
+                        <div class="text-center d-flex text-white flex-column rounded-2 meal position-relative overflow-hidden " id="catCard">
+                            <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                                <h3>Avocado</h3>
+                                <p>The avocado, a tree with probable origin in South Central Mexico, is classified as a member of the flowering plant</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center d-flex text-white flex-column rounded-2 meal position-relative overflow-hidden " id="catCard">
+                                <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                                    <h3>Avocado</h3>
+                                    <p>The avocado, a tree with probable origin in South Central Mexico, is classified as a member of the flowering plant</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center d-flex text-white flex-column rounded-2 meal position-relative overflow-hidden " id="catCard">
+                                    <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                                        <h3>Avocado</h3>
+                                        <p>The avocado, a tree with probable origin in South Central Mexico, is classified as a member of the flowering plant</p>
+                                    </div>
+                                </div>
+                    
+                    </div>
+                  
+                    
+                     
+
+                    </div>
+                   
+                     
+
+                
+        </section>
+
+        <!-- contact us  -->
+        <section class="bg-black min-vh-100 d-none" id="contact-us">
+            <div class="container contact text-center">
+                <div class="row g-4 padding-contact">
+                    <div class=" d-flex  justify-content-center align-items-center text-center ">
+                        <div class="row g-4 text-white py-3">
+                            <div class="col-md-6">
+                                <input class="form-control" placeholder="Enter Your Name" id="name-contact">   
+                                <div id="nameAlert" class="alert alert-danger w-100 mt-2 d-none ">
+                                    Special characters and numbers not allowed
+                                </div>                        
+                             </div>
+                            <div class="col-md-6">
+                                <input class="form-control" placeholder="Enter Your Email" id="email-contact"> 
+                                <div id="emailAlert" class="alert alert-danger w-100 mt-2 d-none">
+                                    Email not valid *exemple@yyy.zzz
+                                </div>                           
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" placeholder="Enter Your Phone" id="phone-contact">  
+                                <div id="phoneAlert" class="alert alert-danger w-100 mt-2 d-none">
+                                    Enter valid Phone Number
+                                </div>                         
+                             </div>
+                            <div class="col-md-6">
+                                <input class="form-control" placeholder="Enter Your Age" type="number" id="age-contact">  
+                                <div id="ageAlert" class="alert alert-danger w-100 mt-2 d-none">
+                                    Enter valid age
+                                </div>                          
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" placeholder="Enter Your Password" id="password-contact" type="password">  
+                                <div id="passwordAlert" class="alert alert-danger w-100 mt-2 d-none">
+                                    Enter valid password *Minimum eight characters, at least one letter and one number:*
+                                </div>                          
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" placeholder="Repassword" id="repassword-contact" type="password">   
+                                <div id="repasswordAlert" class="alert alert-danger w-100 mt-2 d-none">
+                                    Enter valid repassword 
+                                </div>                         
+                            </div>
+
+                          </div>
+                        
+                                    
+
+             
+                    </div>
+                    
+                        
+                    
+                </div>
+                <button type="button" class="btn btn-outline-danger " disabled="true"  id="submitBtn">Submit</button>
+               
+            </div>
+        </section>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+</html>
